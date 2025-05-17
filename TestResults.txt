@@ -1,0 +1,24 @@
+[PASS] Add(1, 2) => 3
+[PASS] Add(1, 2) => 3
+[FAIL] Add(1, 2): Expected: 4, but got: 3
+[PASS] Subtract(2, 2) => 0
+[PASS] Subtract(1, 1) => 0
+[PASS] Multiply(2, 2) => 4
+[PASS] Multiply(1, 2) => 2
+[FAIL] Divide(()): Parameter count mismatch.
+[PASS] Divide(2, 2) => 1
+[FAIL] Divide(1, 2): Expected: 0.5, but got: 0
+[FAIL] Func1(()): I am always throwing an exception.
+[FAIL] Func1(2, 2): Parameter count mismatch.
+[FAIL] Func1(1, 2): Parameter count mismatch.
+[PASS] Func2(()) => 
+[FAIL] Func2(2, 2): Parameter count mismatch.
+[FAIL] Func2(1, 2): Parameter count mismatch.
+[PASS] Func3(()) => 1
+[FAIL] Func3(1): Parameter count mismatch.
+[FAIL] Func3(1, 2): Parameter count mismatch.
+========== Test Summary ==========
+Total Tests:   19
+Passed:        9
+Failed:        10
+==================================
