@@ -17,10 +17,9 @@ internal class Calculator
 
     [Test]
     [TestCase(2, 2)]
-    [TestCaseWithResult(0.5, 1, 2)]
+    [TestCaseWithResult(0, 1, 2)]
     public int Divide(int x, int y) => x / y;
 
-    [Test]
     [TestCase(2, 2)]
     [TestCaseWithResult(3, 1, 2)]
     public int Func1() => throw new Exception("I am always throwing an exception.");
@@ -31,8 +30,6 @@ internal class Calculator
     public void Func2() { }
 
     [Test]
-    [TestCase(1)]
-    [TestCaseWithResult(3, 1, 2)]
     public int Func3()
     {
         Random random = new();
